@@ -27,6 +27,7 @@ public class UsersController {
     @RequestMapping("/addUser")
     public String addUser(Users users) {
         this.usersService.addUser(users);
+        String str="sssssssssssssss";
         return "ok";
     }
 }
